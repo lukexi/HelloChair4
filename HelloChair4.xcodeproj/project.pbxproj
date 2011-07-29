@@ -1,0 +1,610 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C2029DED13E2122A009FCD13 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2029DEC13E2122A009FCD13 /* UIKit.framework */; };
+		C2029DEF13E2122A009FCD13 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2029DEE13E2122A009FCD13 /* Foundation.framework */; };
+		C2029DF113E2122A009FCD13 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2029DF013E2122A009FCD13 /* CoreGraphics.framework */; };
+		C2029DF313E2122A009FCD13 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2029DF213E2122A009FCD13 /* CoreData.framework */; };
+		C2029DF913E2122A009FCD13 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C2029DF713E2122A009FCD13 /* InfoPlist.strings */; };
+		C2029DFB13E2122A009FCD13 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C2029DFA13E2122A009FCD13 /* main.m */; };
+		C2029DFF13E2122A009FCD13 /* HelloChair4AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C2029DFE13E2122A009FCD13 /* HelloChair4AppDelegate.m */; };
+		C2029E0213E2122A009FCD13 /* HelloChair4.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C2029E0013E2122A009FCD13 /* HelloChair4.xcdatamodeld */; };
+		C2029E0513E2122A009FCD13 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = C2029E0313E2122A009FCD13 /* MainWindow.xib */; };
+		C2029E0813E2122A009FCD13 /* HCActivityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2029E0713E2122A009FCD13 /* HCActivityViewController.m */; };
+		C2029E0B13E2122A009FCD13 /* HCActivityViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C2029E0913E2122A009FCD13 /* HCActivityViewController.xib */; };
+		C2029E1413E2128A009FCD13 /* HCUserProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2029E1213E2128A009FCD13 /* HCUserProfileViewController.m */; };
+		C2029E1513E2128A009FCD13 /* HCUserProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C2029E1313E2128A009FCD13 /* HCUserProfileViewController.xib */; };
+		C2029E1913E21355009FCD13 /* HCDrawingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2029E1713E21355009FCD13 /* HCDrawingViewController.m */; };
+		C2029E3B13E21825009FCD13 /* CDDrawingView.m in Sources */ = {isa = PBXBuildFile; fileRef = C2029E2513E21825009FCD13 /* CDDrawingView.m */; };
+		C2029E3C13E21825009FCD13 /* CDDrawingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2029E2713E21825009FCD13 /* CDDrawingViewController.m */; };
+		C2029E3D13E21825009FCD13 /* CDDrawingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C2029E2813E21825009FCD13 /* CDDrawingViewController.xib */; };
+		C2029E3F13E21825009FCD13 /* _CDDrawing.m in Sources */ = {isa = PBXBuildFile; fileRef = C2029E2D13E21825009FCD13 /* _CDDrawing.m */; };
+		C2029E4013E21825009FCD13 /* _CDPath.m in Sources */ = {isa = PBXBuildFile; fileRef = C2029E2F13E21825009FCD13 /* _CDPath.m */; };
+		C2029E4113E21825009FCD13 /* _CDPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = C2029E3113E21825009FCD13 /* _CDPoint.m */; };
+		C2029E4213E21825009FCD13 /* CDDrawing.m in Sources */ = {isa = PBXBuildFile; fileRef = C2029E3313E21825009FCD13 /* CDDrawing.m */; };
+		C2029E4313E21825009FCD13 /* CDPath.m in Sources */ = {isa = PBXBuildFile; fileRef = C2029E3513E21825009FCD13 /* CDPath.m */; };
+		C2029E4413E21825009FCD13 /* CDPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = C2029E3713E21825009FCD13 /* CDPoint.m */; };
+		C2029E4513E21825009FCD13 /* runMOGenerator.sh in Resources */ = {isa = PBXBuildFile; fileRef = C2029E3813E21825009FCD13 /* runMOGenerator.sh */; };
+		C2029E4613E21825009FCD13 /* UIColor+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = C2029E3A13E21825009FCD13 /* UIColor+Additions.m */; };
+		C2029FD113E2182F009FCD13 /* CoreDataJSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = C2029F1413E2182E009FCD13 /* CoreDataJSONKit.m */; };
+		C2029FE413E2182F009FCD13 /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = C2029F3C13E2182E009FCD13 /* JSONKit.m */; };
+		C2029FE513E2182F009FCD13 /* Adjectives.txt in Resources */ = {isa = PBXBuildFile; fileRef = C2029F3E13E2182E009FCD13 /* Adjectives.txt */; };
+		C2029FE613E2182F009FCD13 /* AFCallback.m in Sources */ = {isa = PBXBuildFile; fileRef = C2029F4113E2182E009FCD13 /* AFCallback.m */; };
+		C2029FE713E2182F009FCD13 /* AFHTTPOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = C2029F4313E2182E009FCD13 /* AFHTTPOperation.m */; };
+		C2029FE813E2182F009FCD13 /* AFImageRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = C2029F4513E2182E009FCD13 /* AFImageRequestOperation.m */; };
+		C2029FE913E2182F009FCD13 /* AFRestClient.m in Sources */ = {isa = PBXBuildFile; fileRef = C2029F4713E2182E009FCD13 /* AFRestClient.m */; };
+		C2029FEA13E2182F009FCD13 /* QHTTPOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = C2029F4A13E2182E009FCD13 /* QHTTPOperation.m */; };
+		C2029FEB13E2182F009FCD13 /* QRunLoopOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = C2029F4C13E2182E009FCD13 /* QRunLoopOperation.m */; };
+		C2029FEC13E2182F009FCD13 /* UIImage+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = C2029F4E13E2182E009FCD13 /* UIImage+AFNetworking.m */; };
+		C2029FED13E2182F009FCD13 /* CDCouchDocumentsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2029F5013E2182E009FCD13 /* CDCouchDocumentsTableViewController.m */; };
+		C2029FEE13E2182F009FCD13 /* CDCouchDocumentsTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C2029F5113E2182E009FCD13 /* CDCouchDocumentsTableViewController.xib */; };
+		C2029FEF13E2182F009FCD13 /* CKCouchAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = C2029F5313E2182E009FCD13 /* CKCouchAPIClient.m */; };
+		C2029FF013E2182F009FCD13 /* CKCouchDB.m in Sources */ = {isa = PBXBuildFile; fileRef = C2029F5513E2182E009FCD13 /* CKCouchDB.m */; };
+		C2029FF113E2182F009FCD13 /* CKGalleryView.m in Sources */ = {isa = PBXBuildFile; fileRef = C2029F5813E2182E009FCD13 /* CKGalleryView.m */; };
+		C2029FF213E2182F009FCD13 /* CKGalleryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2029F5A13E2182E009FCD13 /* CKGalleryViewController.m */; };
+		C2029FF313E2182F009FCD13 /* CKGalleryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C2029F5B13E2182E009FCD13 /* CKGalleryViewController.xib */; };
+		C2029FF413E2182F009FCD13 /* NamerAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = C2029F5D13E2182E009FCD13 /* NamerAdditions.m */; };
+		C2029FF513E2182F009FCD13 /* Nouns.txt in Resources */ = {isa = PBXBuildFile; fileRef = C2029F5E13E2182E009FCD13 /* Nouns.txt */; };
+		C2029FF613E2182F009FCD13 /* NSString+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = C2029F6013E2182E009FCD13 /* NSString+Additions.m */; };
+		C2029FF713E2182F009FCD13 /* Prepositions.txt in Resources */ = {isa = PBXBuildFile; fileRef = C2029F6113E2182E009FCD13 /* Prepositions.txt */; };
+		C2029FF813E2182F009FCD13 /* Verbs.txt in Resources */ = {isa = PBXBuildFile; fileRef = C2029F6213E2182E009FCD13 /* Verbs.txt */; };
+		C2BE8C4313E29A26000DB009 /* CKInsertDocumentsOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = C2BE8C4213E29A26000DB009 /* CKInsertDocumentsOperation.m */; };
+		C2EBCA9E13E2246F00AF240F /* DrawingKit.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C2EBCA9C13E2246F00AF240F /* DrawingKit.xcdatamodeld */; };
+		C2EBCAA113E2342200AF240F /* CDDrawing+RemixAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = C2EBCAA013E2342200AF240F /* CDDrawing+RemixAdditions.m */; };
+		C2FD792813E278160094F105 /* HCFetchedResultsController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2FD792713E278160094F105 /* HCFetchedResultsController.m */; };
+		C2FD792C13E28BD10094F105 /* CDImageToDataTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = C2FD792B13E28BD10094F105 /* CDImageToDataTransformer.m */; };
+		C2FD79A813E296C10094F105 /* CKInsertOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = C2FD79A713E296C10094F105 /* CKInsertOperation.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C2029DE813E2122A009FCD13 /* HelloChair4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloChair4.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2029DEC13E2122A009FCD13 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C2029DEE13E2122A009FCD13 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C2029DF013E2122A009FCD13 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C2029DF213E2122A009FCD13 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		C2029DF613E2122A009FCD13 /* HelloChair4-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HelloChair4-Info.plist"; sourceTree = "<group>"; };
+		C2029DF813E2122A009FCD13 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C2029DFA13E2122A009FCD13 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C2029DFC13E2122A009FCD13 /* HelloChair4-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HelloChair4-Prefix.pch"; sourceTree = "<group>"; };
+		C2029DFD13E2122A009FCD13 /* HelloChair4AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloChair4AppDelegate.h; sourceTree = "<group>"; };
+		C2029DFE13E2122A009FCD13 /* HelloChair4AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloChair4AppDelegate.m; sourceTree = "<group>"; };
+		C2029E0113E2122A009FCD13 /* HelloChair4.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HelloChair4.xcdatamodel; sourceTree = "<group>"; };
+		C2029E0413E2122A009FCD13 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		C2029E0613E2122A009FCD13 /* HCActivityViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HCActivityViewController.h; sourceTree = "<group>"; };
+		C2029E0713E2122A009FCD13 /* HCActivityViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HCActivityViewController.m; sourceTree = "<group>"; };
+		C2029E0A13E2122A009FCD13 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/HCActivityViewController.xib; sourceTree = "<group>"; };
+		C2029E1113E2128A009FCD13 /* HCUserProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCUserProfileViewController.h; sourceTree = "<group>"; };
+		C2029E1213E2128A009FCD13 /* HCUserProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCUserProfileViewController.m; sourceTree = "<group>"; };
+		C2029E1313E2128A009FCD13 /* HCUserProfileViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HCUserProfileViewController.xib; sourceTree = "<group>"; };
+		C2029E1613E21355009FCD13 /* HCDrawingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDrawingViewController.h; sourceTree = "<group>"; };
+		C2029E1713E21355009FCD13 /* HCDrawingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCDrawingViewController.m; sourceTree = "<group>"; };
+		C2029E2413E21825009FCD13 /* CDDrawingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDDrawingView.h; sourceTree = "<group>"; };
+		C2029E2513E21825009FCD13 /* CDDrawingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDDrawingView.m; sourceTree = "<group>"; };
+		C2029E2613E21825009FCD13 /* CDDrawingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDDrawingViewController.h; sourceTree = "<group>"; };
+		C2029E2713E21825009FCD13 /* CDDrawingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDDrawingViewController.m; sourceTree = "<group>"; };
+		C2029E2813E21825009FCD13 /* CDDrawingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CDDrawingViewController.xib; sourceTree = "<group>"; };
+		C2029E2C13E21825009FCD13 /* _CDDrawing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _CDDrawing.h; sourceTree = "<group>"; };
+		C2029E2D13E21825009FCD13 /* _CDDrawing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _CDDrawing.m; sourceTree = "<group>"; };
+		C2029E2E13E21825009FCD13 /* _CDPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _CDPath.h; sourceTree = "<group>"; };
+		C2029E2F13E21825009FCD13 /* _CDPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _CDPath.m; sourceTree = "<group>"; };
+		C2029E3013E21825009FCD13 /* _CDPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _CDPoint.h; sourceTree = "<group>"; };
+		C2029E3113E21825009FCD13 /* _CDPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _CDPoint.m; sourceTree = "<group>"; };
+		C2029E3213E21825009FCD13 /* CDDrawing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDDrawing.h; sourceTree = "<group>"; };
+		C2029E3313E21825009FCD13 /* CDDrawing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDDrawing.m; sourceTree = "<group>"; };
+		C2029E3413E21825009FCD13 /* CDPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDPath.h; sourceTree = "<group>"; };
+		C2029E3513E21825009FCD13 /* CDPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDPath.m; sourceTree = "<group>"; };
+		C2029E3613E21825009FCD13 /* CDPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDPoint.h; sourceTree = "<group>"; };
+		C2029E3713E21825009FCD13 /* CDPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDPoint.m; sourceTree = "<group>"; };
+		C2029E3813E21825009FCD13 /* runMOGenerator.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = runMOGenerator.sh; sourceTree = "<group>"; };
+		C2029E3913E21825009FCD13 /* UIColor+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Additions.h"; sourceTree = "<group>"; };
+		C2029E3A13E21825009FCD13 /* UIColor+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Additions.m"; sourceTree = "<group>"; };
+		C2029F1313E2182E009FCD13 /* CoreDataJSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataJSONKit.h; sourceTree = "<group>"; };
+		C2029F1413E2182E009FCD13 /* CoreDataJSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataJSONKit.m; sourceTree = "<group>"; };
+		C2029F3B13E2182E009FCD13 /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
+		C2029F3C13E2182E009FCD13 /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
+		C2029F3E13E2182E009FCD13 /* Adjectives.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Adjectives.txt; sourceTree = "<group>"; };
+		C2029F4013E2182E009FCD13 /* AFCallback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFCallback.h; sourceTree = "<group>"; };
+		C2029F4113E2182E009FCD13 /* AFCallback.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFCallback.m; sourceTree = "<group>"; };
+		C2029F4213E2182E009FCD13 /* AFHTTPOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPOperation.h; sourceTree = "<group>"; };
+		C2029F4313E2182E009FCD13 /* AFHTTPOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPOperation.m; sourceTree = "<group>"; };
+		C2029F4413E2182E009FCD13 /* AFImageRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFImageRequestOperation.h; sourceTree = "<group>"; };
+		C2029F4513E2182E009FCD13 /* AFImageRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFImageRequestOperation.m; sourceTree = "<group>"; };
+		C2029F4613E2182E009FCD13 /* AFRestClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFRestClient.h; sourceTree = "<group>"; };
+		C2029F4713E2182E009FCD13 /* AFRestClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFRestClient.m; sourceTree = "<group>"; };
+		C2029F4913E2182E009FCD13 /* QHTTPOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QHTTPOperation.h; sourceTree = "<group>"; };
+		C2029F4A13E2182E009FCD13 /* QHTTPOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QHTTPOperation.m; sourceTree = "<group>"; };
+		C2029F4B13E2182E009FCD13 /* QRunLoopOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRunLoopOperation.h; sourceTree = "<group>"; };
+		C2029F4C13E2182E009FCD13 /* QRunLoopOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRunLoopOperation.m; sourceTree = "<group>"; };
+		C2029F4D13E2182E009FCD13 /* UIImage+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+AFNetworking.h"; sourceTree = "<group>"; };
+		C2029F4E13E2182E009FCD13 /* UIImage+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+AFNetworking.m"; sourceTree = "<group>"; };
+		C2029F4F13E2182E009FCD13 /* CDCouchDocumentsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDCouchDocumentsTableViewController.h; sourceTree = "<group>"; };
+		C2029F5013E2182E009FCD13 /* CDCouchDocumentsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDCouchDocumentsTableViewController.m; sourceTree = "<group>"; };
+		C2029F5113E2182E009FCD13 /* CDCouchDocumentsTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CDCouchDocumentsTableViewController.xib; sourceTree = "<group>"; };
+		C2029F5213E2182E009FCD13 /* CKCouchAPIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKCouchAPIClient.h; sourceTree = "<group>"; };
+		C2029F5313E2182E009FCD13 /* CKCouchAPIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CKCouchAPIClient.m; sourceTree = "<group>"; };
+		C2029F5413E2182E009FCD13 /* CKCouchDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKCouchDB.h; sourceTree = "<group>"; };
+		C2029F5513E2182E009FCD13 /* CKCouchDB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CKCouchDB.m; sourceTree = "<group>"; };
+		C2029F5613E2182E009FCD13 /* CKCouchDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKCouchDocument.h; sourceTree = "<group>"; };
+		C2029F5713E2182E009FCD13 /* CKGalleryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKGalleryView.h; sourceTree = "<group>"; };
+		C2029F5813E2182E009FCD13 /* CKGalleryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CKGalleryView.m; sourceTree = "<group>"; };
+		C2029F5913E2182E009FCD13 /* CKGalleryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKGalleryViewController.h; sourceTree = "<group>"; };
+		C2029F5A13E2182E009FCD13 /* CKGalleryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CKGalleryViewController.m; sourceTree = "<group>"; };
+		C2029F5B13E2182E009FCD13 /* CKGalleryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CKGalleryViewController.xib; sourceTree = "<group>"; };
+		C2029F5C13E2182E009FCD13 /* NamerAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NamerAdditions.h; sourceTree = "<group>"; };
+		C2029F5D13E2182E009FCD13 /* NamerAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NamerAdditions.m; sourceTree = "<group>"; };
+		C2029F5E13E2182E009FCD13 /* Nouns.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Nouns.txt; sourceTree = "<group>"; };
+		C2029F5F13E2182E009FCD13 /* NSString+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Additions.h"; sourceTree = "<group>"; };
+		C2029F6013E2182E009FCD13 /* NSString+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Additions.m"; sourceTree = "<group>"; };
+		C2029F6113E2182E009FCD13 /* Prepositions.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Prepositions.txt; sourceTree = "<group>"; };
+		C2029F6213E2182E009FCD13 /* Verbs.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Verbs.txt; sourceTree = "<group>"; };
+		C278E4F513E2207C00AEC22F /* HCConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCConstants.h; sourceTree = "<group>"; };
+		C2BE8C4113E29A26000DB009 /* CKInsertDocumentsOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKInsertDocumentsOperation.h; sourceTree = "<group>"; };
+		C2BE8C4213E29A26000DB009 /* CKInsertDocumentsOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CKInsertDocumentsOperation.m; sourceTree = "<group>"; };
+		C2EBCA9D13E2246F00AF240F /* DrawingKit.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DrawingKit.xcdatamodel; sourceTree = "<group>"; };
+		C2EBCA9F13E2342200AF240F /* CDDrawing+RemixAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CDDrawing+RemixAdditions.h"; sourceTree = "<group>"; };
+		C2EBCAA013E2342200AF240F /* CDDrawing+RemixAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CDDrawing+RemixAdditions.m"; sourceTree = "<group>"; };
+		C2FD792613E278160094F105 /* HCFetchedResultsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCFetchedResultsController.h; sourceTree = "<group>"; };
+		C2FD792713E278160094F105 /* HCFetchedResultsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCFetchedResultsController.m; sourceTree = "<group>"; };
+		C2FD792A13E28BD10094F105 /* CDImageToDataTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDImageToDataTransformer.h; sourceTree = "<group>"; };
+		C2FD792B13E28BD10094F105 /* CDImageToDataTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDImageToDataTransformer.m; sourceTree = "<group>"; };
+		C2FD79A613E296C10094F105 /* CKInsertOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKInsertOperation.h; sourceTree = "<group>"; };
+		C2FD79A713E296C10094F105 /* CKInsertOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CKInsertOperation.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C2029DE513E21229009FCD13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2029DED13E2122A009FCD13 /* UIKit.framework in Frameworks */,
+				C2029DEF13E2122A009FCD13 /* Foundation.framework in Frameworks */,
+				C2029DF113E2122A009FCD13 /* CoreGraphics.framework in Frameworks */,
+				C2029DF313E2122A009FCD13 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C2029DDD13E21229009FCD13 = {
+			isa = PBXGroup;
+			children = (
+				C2029E4813E2182E009FCD13 /* CoreDataJSONKit */,
+				C2029F3D13E2182E009FCD13 /* CouchKit */,
+				C2029E2313E21825009FCD13 /* DrawingKit */,
+				C2029DF413E2122A009FCD13 /* HelloChair4 */,
+				C2029DEB13E2122A009FCD13 /* Frameworks */,
+				C2029DE913E2122A009FCD13 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C2029DE913E2122A009FCD13 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C2029DE813E2122A009FCD13 /* HelloChair4.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C2029DEB13E2122A009FCD13 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C2029DEC13E2122A009FCD13 /* UIKit.framework */,
+				C2029DEE13E2122A009FCD13 /* Foundation.framework */,
+				C2029DF013E2122A009FCD13 /* CoreGraphics.framework */,
+				C2029DF213E2122A009FCD13 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C2029DF413E2122A009FCD13 /* HelloChair4 */ = {
+			isa = PBXGroup;
+			children = (
+				C2029DFD13E2122A009FCD13 /* HelloChair4AppDelegate.h */,
+				C2029DFE13E2122A009FCD13 /* HelloChair4AppDelegate.m */,
+				C2029E0613E2122A009FCD13 /* HCActivityViewController.h */,
+				C2029E0713E2122A009FCD13 /* HCActivityViewController.m */,
+				C2029E0913E2122A009FCD13 /* HCActivityViewController.xib */,
+				C2029E1113E2128A009FCD13 /* HCUserProfileViewController.h */,
+				C2029E1213E2128A009FCD13 /* HCUserProfileViewController.m */,
+				C2029E1313E2128A009FCD13 /* HCUserProfileViewController.xib */,
+				C2029E1613E21355009FCD13 /* HCDrawingViewController.h */,
+				C2029E1713E21355009FCD13 /* HCDrawingViewController.m */,
+				C2029E0313E2122A009FCD13 /* MainWindow.xib */,
+				C2029E0013E2122A009FCD13 /* HelloChair4.xcdatamodeld */,
+				C2EBCA9F13E2342200AF240F /* CDDrawing+RemixAdditions.h */,
+				C2EBCAA013E2342200AF240F /* CDDrawing+RemixAdditions.m */,
+				C2029DF513E2122A009FCD13 /* Supporting Files */,
+				C278E4F513E2207C00AEC22F /* HCConstants.h */,
+				C2FD792613E278160094F105 /* HCFetchedResultsController.h */,
+				C2FD792713E278160094F105 /* HCFetchedResultsController.m */,
+			);
+			path = HelloChair4;
+			sourceTree = "<group>";
+		};
+		C2029DF513E2122A009FCD13 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C2029DF613E2122A009FCD13 /* HelloChair4-Info.plist */,
+				C2029DF713E2122A009FCD13 /* InfoPlist.strings */,
+				C2029DFA13E2122A009FCD13 /* main.m */,
+				C2029DFC13E2122A009FCD13 /* HelloChair4-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C2029E2313E21825009FCD13 /* DrawingKit */ = {
+			isa = PBXGroup;
+			children = (
+				C2029E2413E21825009FCD13 /* CDDrawingView.h */,
+				C2029E2513E21825009FCD13 /* CDDrawingView.m */,
+				C2029E2613E21825009FCD13 /* CDDrawingViewController.h */,
+				C2029E2713E21825009FCD13 /* CDDrawingViewController.m */,
+				C2029E2813E21825009FCD13 /* CDDrawingViewController.xib */,
+				C2EBCA9C13E2246F00AF240F /* DrawingKit.xcdatamodeld */,
+				C2029E2B13E21825009FCD13 /* Managed Objects */,
+				C2029E3813E21825009FCD13 /* runMOGenerator.sh */,
+				C2029E3913E21825009FCD13 /* UIColor+Additions.h */,
+				C2029E3A13E21825009FCD13 /* UIColor+Additions.m */,
+				C2FD792A13E28BD10094F105 /* CDImageToDataTransformer.h */,
+				C2FD792B13E28BD10094F105 /* CDImageToDataTransformer.m */,
+			);
+			name = DrawingKit;
+			path = ../../GitHub/DrawingKit;
+			sourceTree = "<group>";
+		};
+		C2029E2B13E21825009FCD13 /* Managed Objects */ = {
+			isa = PBXGroup;
+			children = (
+				C2029E2C13E21825009FCD13 /* _CDDrawing.h */,
+				C2029E2D13E21825009FCD13 /* _CDDrawing.m */,
+				C2029E2E13E21825009FCD13 /* _CDPath.h */,
+				C2029E2F13E21825009FCD13 /* _CDPath.m */,
+				C2029E3013E21825009FCD13 /* _CDPoint.h */,
+				C2029E3113E21825009FCD13 /* _CDPoint.m */,
+				C2029E3213E21825009FCD13 /* CDDrawing.h */,
+				C2029E3313E21825009FCD13 /* CDDrawing.m */,
+				C2029E3413E21825009FCD13 /* CDPath.h */,
+				C2029E3513E21825009FCD13 /* CDPath.m */,
+				C2029E3613E21825009FCD13 /* CDPoint.h */,
+				C2029E3713E21825009FCD13 /* CDPoint.m */,
+			);
+			path = "Managed Objects";
+			sourceTree = "<group>";
+		};
+		C2029E4813E2182E009FCD13 /* CoreDataJSONKit */ = {
+			isa = PBXGroup;
+			children = (
+				C2029F1313E2182E009FCD13 /* CoreDataJSONKit.h */,
+				C2029F1413E2182E009FCD13 /* CoreDataJSONKit.m */,
+				C2029F3B13E2182E009FCD13 /* JSONKit.h */,
+				C2029F3C13E2182E009FCD13 /* JSONKit.m */,
+			);
+			name = CoreDataJSONKit;
+			path = ../../GitHub/CoreDataJSONKit;
+			sourceTree = "<group>";
+		};
+		C2029F3D13E2182E009FCD13 /* CouchKit */ = {
+			isa = PBXGroup;
+			children = (
+				C2029F3E13E2182E009FCD13 /* Adjectives.txt */,
+				C2029F3F13E2182E009FCD13 /* AFNetworking */,
+				C2029F4F13E2182E009FCD13 /* CDCouchDocumentsTableViewController.h */,
+				C2029F5013E2182E009FCD13 /* CDCouchDocumentsTableViewController.m */,
+				C2029F5113E2182E009FCD13 /* CDCouchDocumentsTableViewController.xib */,
+				C2029F5213E2182E009FCD13 /* CKCouchAPIClient.h */,
+				C2029F5313E2182E009FCD13 /* CKCouchAPIClient.m */,
+				C2029F5413E2182E009FCD13 /* CKCouchDB.h */,
+				C2029F5513E2182E009FCD13 /* CKCouchDB.m */,
+				C2BE8C4113E29A26000DB009 /* CKInsertDocumentsOperation.h */,
+				C2BE8C4213E29A26000DB009 /* CKInsertDocumentsOperation.m */,
+				C2FD79A613E296C10094F105 /* CKInsertOperation.h */,
+				C2FD79A713E296C10094F105 /* CKInsertOperation.m */,
+				C2029F5613E2182E009FCD13 /* CKCouchDocument.h */,
+				C2029F5713E2182E009FCD13 /* CKGalleryView.h */,
+				C2029F5813E2182E009FCD13 /* CKGalleryView.m */,
+				C2029F5913E2182E009FCD13 /* CKGalleryViewController.h */,
+				C2029F5A13E2182E009FCD13 /* CKGalleryViewController.m */,
+				C2029F5B13E2182E009FCD13 /* CKGalleryViewController.xib */,
+				C2029F5C13E2182E009FCD13 /* NamerAdditions.h */,
+				C2029F5D13E2182E009FCD13 /* NamerAdditions.m */,
+				C2029F5E13E2182E009FCD13 /* Nouns.txt */,
+				C2029F5F13E2182E009FCD13 /* NSString+Additions.h */,
+				C2029F6013E2182E009FCD13 /* NSString+Additions.m */,
+				C2029F6113E2182E009FCD13 /* Prepositions.txt */,
+				C2029F6213E2182E009FCD13 /* Verbs.txt */,
+			);
+			name = CouchKit;
+			path = ../../GitHub/CouchKit;
+			sourceTree = "<group>";
+		};
+		C2029F3F13E2182E009FCD13 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				C2029F4013E2182E009FCD13 /* AFCallback.h */,
+				C2029F4113E2182E009FCD13 /* AFCallback.m */,
+				C2029F4213E2182E009FCD13 /* AFHTTPOperation.h */,
+				C2029F4313E2182E009FCD13 /* AFHTTPOperation.m */,
+				C2029F4413E2182E009FCD13 /* AFImageRequestOperation.h */,
+				C2029F4513E2182E009FCD13 /* AFImageRequestOperation.m */,
+				C2029F4613E2182E009FCD13 /* AFRestClient.h */,
+				C2029F4713E2182E009FCD13 /* AFRestClient.m */,
+				C2029F4813E2182E009FCD13 /* QHTTPOperation */,
+				C2029F4D13E2182E009FCD13 /* UIImage+AFNetworking.h */,
+				C2029F4E13E2182E009FCD13 /* UIImage+AFNetworking.m */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		C2029F4813E2182E009FCD13 /* QHTTPOperation */ = {
+			isa = PBXGroup;
+			children = (
+				C2029F4913E2182E009FCD13 /* QHTTPOperation.h */,
+				C2029F4A13E2182E009FCD13 /* QHTTPOperation.m */,
+				C2029F4B13E2182E009FCD13 /* QRunLoopOperation.h */,
+				C2029F4C13E2182E009FCD13 /* QRunLoopOperation.m */,
+			);
+			path = QHTTPOperation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C2029DE713E21229009FCD13 /* HelloChair4 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2029E0E13E2122A009FCD13 /* Build configuration list for PBXNativeTarget "HelloChair4" */;
+			buildPhases = (
+				C2029DE413E21229009FCD13 /* Sources */,
+				C2029DE513E21229009FCD13 /* Frameworks */,
+				C2029DE613E21229009FCD13 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloChair4;
+			productName = HelloChair4;
+			productReference = C2029DE813E2122A009FCD13 /* HelloChair4.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C2029DDF13E21229009FCD13 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = C2029DE213E21229009FCD13 /* Build configuration list for PBXProject "HelloChair4" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C2029DDD13E21229009FCD13;
+			productRefGroup = C2029DE913E2122A009FCD13 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C2029DE713E21229009FCD13 /* HelloChair4 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C2029DE613E21229009FCD13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2029DF913E2122A009FCD13 /* InfoPlist.strings in Resources */,
+				C2029E0513E2122A009FCD13 /* MainWindow.xib in Resources */,
+				C2029E0B13E2122A009FCD13 /* HCActivityViewController.xib in Resources */,
+				C2029E1513E2128A009FCD13 /* HCUserProfileViewController.xib in Resources */,
+				C2029E3D13E21825009FCD13 /* CDDrawingViewController.xib in Resources */,
+				C2029E4513E21825009FCD13 /* runMOGenerator.sh in Resources */,
+				C2029FE513E2182F009FCD13 /* Adjectives.txt in Resources */,
+				C2029FEE13E2182F009FCD13 /* CDCouchDocumentsTableViewController.xib in Resources */,
+				C2029FF313E2182F009FCD13 /* CKGalleryViewController.xib in Resources */,
+				C2029FF513E2182F009FCD13 /* Nouns.txt in Resources */,
+				C2029FF713E2182F009FCD13 /* Prepositions.txt in Resources */,
+				C2029FF813E2182F009FCD13 /* Verbs.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C2029DE413E21229009FCD13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2029DFB13E2122A009FCD13 /* main.m in Sources */,
+				C2029DFF13E2122A009FCD13 /* HelloChair4AppDelegate.m in Sources */,
+				C2029E0213E2122A009FCD13 /* HelloChair4.xcdatamodeld in Sources */,
+				C2029E0813E2122A009FCD13 /* HCActivityViewController.m in Sources */,
+				C2029E1413E2128A009FCD13 /* HCUserProfileViewController.m in Sources */,
+				C2029E1913E21355009FCD13 /* HCDrawingViewController.m in Sources */,
+				C2029E3B13E21825009FCD13 /* CDDrawingView.m in Sources */,
+				C2029E3C13E21825009FCD13 /* CDDrawingViewController.m in Sources */,
+				C2029E3F13E21825009FCD13 /* _CDDrawing.m in Sources */,
+				C2029E4013E21825009FCD13 /* _CDPath.m in Sources */,
+				C2029E4113E21825009FCD13 /* _CDPoint.m in Sources */,
+				C2029E4213E21825009FCD13 /* CDDrawing.m in Sources */,
+				C2029E4313E21825009FCD13 /* CDPath.m in Sources */,
+				C2029E4413E21825009FCD13 /* CDPoint.m in Sources */,
+				C2029E4613E21825009FCD13 /* UIColor+Additions.m in Sources */,
+				C2029FD113E2182F009FCD13 /* CoreDataJSONKit.m in Sources */,
+				C2029FE413E2182F009FCD13 /* JSONKit.m in Sources */,
+				C2029FE613E2182F009FCD13 /* AFCallback.m in Sources */,
+				C2029FE713E2182F009FCD13 /* AFHTTPOperation.m in Sources */,
+				C2029FE813E2182F009FCD13 /* AFImageRequestOperation.m in Sources */,
+				C2029FE913E2182F009FCD13 /* AFRestClient.m in Sources */,
+				C2029FEA13E2182F009FCD13 /* QHTTPOperation.m in Sources */,
+				C2029FEB13E2182F009FCD13 /* QRunLoopOperation.m in Sources */,
+				C2029FEC13E2182F009FCD13 /* UIImage+AFNetworking.m in Sources */,
+				C2029FED13E2182F009FCD13 /* CDCouchDocumentsTableViewController.m in Sources */,
+				C2029FEF13E2182F009FCD13 /* CKCouchAPIClient.m in Sources */,
+				C2029FF013E2182F009FCD13 /* CKCouchDB.m in Sources */,
+				C2029FF113E2182F009FCD13 /* CKGalleryView.m in Sources */,
+				C2029FF213E2182F009FCD13 /* CKGalleryViewController.m in Sources */,
+				C2029FF413E2182F009FCD13 /* NamerAdditions.m in Sources */,
+				C2029FF613E2182F009FCD13 /* NSString+Additions.m in Sources */,
+				C2EBCA9E13E2246F00AF240F /* DrawingKit.xcdatamodeld in Sources */,
+				C2EBCAA113E2342200AF240F /* CDDrawing+RemixAdditions.m in Sources */,
+				C2FD792813E278160094F105 /* HCFetchedResultsController.m in Sources */,
+				C2FD792C13E28BD10094F105 /* CDImageToDataTransformer.m in Sources */,
+				C2FD79A813E296C10094F105 /* CKInsertOperation.m in Sources */,
+				C2BE8C4313E29A26000DB009 /* CKInsertDocumentsOperation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C2029DF713E2122A009FCD13 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2029DF813E2122A009FCD13 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C2029E0313E2122A009FCD13 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2029E0413E2122A009FCD13 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		C2029E0913E2122A009FCD13 /* HCActivityViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2029E0A13E2122A009FCD13 /* en */,
+			);
+			name = HCActivityViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C2029E0C13E2122A009FCD13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C2029E0D13E2122A009FCD13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C2029E0F13E2122A009FCD13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloChair4/HelloChair4-Prefix.pch";
+				INFOPLIST_FILE = "HelloChair4/HelloChair4-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C2029E1013E2122A009FCD13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloChair4/HelloChair4-Prefix.pch";
+				INFOPLIST_FILE = "HelloChair4/HelloChair4-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C2029DE213E21229009FCD13 /* Build configuration list for PBXProject "HelloChair4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2029E0C13E2122A009FCD13 /* Debug */,
+				C2029E0D13E2122A009FCD13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2029E0E13E2122A009FCD13 /* Build configuration list for PBXNativeTarget "HelloChair4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2029E0F13E2122A009FCD13 /* Debug */,
+				C2029E1013E2122A009FCD13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C2029E0013E2122A009FCD13 /* HelloChair4.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C2029E0113E2122A009FCD13 /* HelloChair4.xcdatamodel */,
+			);
+			currentVersion = C2029E0113E2122A009FCD13 /* HelloChair4.xcdatamodel */;
+			path = HelloChair4.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		C2EBCA9C13E2246F00AF240F /* DrawingKit.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C2EBCA9D13E2246F00AF240F /* DrawingKit.xcdatamodel */,
+			);
+			currentVersion = C2EBCA9D13E2246F00AF240F /* DrawingKit.xcdatamodel */;
+			path = DrawingKit.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C2029DDF13E21229009FCD13 /* Project object */;
+}
