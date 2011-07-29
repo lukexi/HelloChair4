@@ -1,0 +1,9 @@
+[submodule "CouchKit"]
+	path = CouchKit
+	url = git@github.com:lukexi/CouchKit.git
+[submodule "DrawingKit"]
+	path = DrawingKit
+	url = git@github.com:lukexi/DrawingKit.git
+[submodule "CoreDataJSONKit"]
+	path = CoreDataJSONKit
+	url = git@github.com:lukexi/CoreDataJSONKit.git
